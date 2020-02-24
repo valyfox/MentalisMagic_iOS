@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		409801F0240442830037F7A6 /* Cities.txt in Resources */ = {isa = PBXBuildFile; fileRef = 409801EF240442830037F7A6 /* Cities.txt */; };
 		409801F224044A4D0037F7A6 /* GuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409801F124044A4D0037F7A6 /* GuideViewController.swift */; };
+		409801F42404516C0037F7A6 /* WordParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409801F32404516C0037F7A6 /* WordParser.swift */; };
 		40ABCFC82365AF8C00C47E1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ABCFC72365AF8C00C47E1A /* AppDelegate.swift */; };
 		40ABCFCA2365AF8C00C47E1A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ABCFC92365AF8C00C47E1A /* SceneDelegate.swift */; };
 		40ABCFCC2365AF8C00C47E1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ABCFCB2365AF8C00C47E1A /* ViewController.swift */; };
@@ -22,6 +23,7 @@
 /* Begin PBXFileReference section */
 		409801EF240442830037F7A6 /* Cities.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cities.txt; sourceTree = "<group>"; };
 		409801F124044A4D0037F7A6 /* GuideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideViewController.swift; sourceTree = "<group>"; };
+		409801F32404516C0037F7A6 /* WordParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordParser.swift; sourceTree = "<group>"; };
 		40ABCFC42365AF8C00C47E1A /* MentalismMagic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MentalismMagic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40ABCFC72365AF8C00C47E1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40ABCFC92365AF8C00C47E1A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				40ABCFC72365AF8C00C47E1A /* AppDelegate.swift */,
 				40ABCFC92365AF8C00C47E1A /* SceneDelegate.swift */,
 				40ABCFCB2365AF8C00C47E1A /* ViewController.swift */,
+				409801F32404516C0037F7A6 /* WordParser.swift */,
 				40ABCFCD2365AF8C00C47E1A /* Main.storyboard */,
 				40ABCFD32365AF8C00C47E1A /* Assets.xcassets */,
 				40ABCFD52365AF8C00C47E1A /* LaunchScreen.storyboard */,
@@ -152,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				409801F42404516C0037F7A6 /* WordParser.swift in Sources */,
 				40ABCFCC2365AF8C00C47E1A /* ViewController.swift in Sources */,
 				40ABCFC82365AF8C00C47E1A /* AppDelegate.swift in Sources */,
 				40ABCFD22365AF8C00C47E1A /* MentalismMagic.xcdatamodeld in Sources */,

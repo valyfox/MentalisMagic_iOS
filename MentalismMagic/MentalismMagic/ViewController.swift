@@ -14,7 +14,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        if let (dritte, curve) = WordParser.shared.parse(fileName: "pius") {
+        if let (dritte, curve) = WordParser.shared.parse(fileName: "Cities") {
             print(dritte, curve)
             print(dritte.count, curve.count)
         }
