@@ -7,29 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		40ABCF9D2365A5BB00C47E1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ABCF9C2365A5BB00C47E1A /* AppDelegate.swift */; };
-		40ABCF9F2365A5BB00C47E1A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ABCF9E2365A5BB00C47E1A /* SceneDelegate.swift */; };
-		40ABCFA22365A5BB00C47E1A /* MentalismMagic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 40ABCFA02365A5BB00C47E1A /* MentalismMagic.xcdatamodeld */; };
-		40ABCFA42365A5BB00C47E1A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ABCFA32365A5BB00C47E1A /* ContentView.swift */; };
-		40ABCFA62365A5BC00C47E1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40ABCFA52365A5BC00C47E1A /* Assets.xcassets */; };
-		40ABCFA92365A5BC00C47E1A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40ABCFA82365A5BC00C47E1A /* Preview Assets.xcassets */; };
-		40ABCFAC2365A5BC00C47E1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40ABCFAA2365A5BC00C47E1A /* LaunchScreen.storyboard */; };
+		40ABCFC82365AF8C00C47E1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ABCFC72365AF8C00C47E1A /* AppDelegate.swift */; };
+		40ABCFCA2365AF8C00C47E1A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ABCFC92365AF8C00C47E1A /* SceneDelegate.swift */; };
+		40ABCFCC2365AF8C00C47E1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ABCFCB2365AF8C00C47E1A /* ViewController.swift */; };
+		40ABCFCF2365AF8C00C47E1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40ABCFCD2365AF8C00C47E1A /* Main.storyboard */; };
+		40ABCFD22365AF8C00C47E1A /* MentalismMagic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 40ABCFD02365AF8C00C47E1A /* MentalismMagic.xcdatamodeld */; };
+		40ABCFD42365AF8C00C47E1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40ABCFD32365AF8C00C47E1A /* Assets.xcassets */; };
+		40ABCFD72365AF8C00C47E1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40ABCFD52365AF8C00C47E1A /* LaunchScreen.storyboard */; };
+		40ABCFDF2365B03000C47E1A /* Cities.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 40ABCFDE2365B03000C47E1A /* Cities.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		40ABCF992365A5BB00C47E1A /* MentalismMagic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MentalismMagic.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		40ABCF9C2365A5BB00C47E1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		40ABCF9E2365A5BB00C47E1A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		40ABCFA12365A5BB00C47E1A /* MentalismMagic.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MentalismMagic.xcdatamodel; sourceTree = "<group>"; };
-		40ABCFA32365A5BB00C47E1A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		40ABCFA52365A5BC00C47E1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		40ABCFA82365A5BC00C47E1A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		40ABCFAB2365A5BC00C47E1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		40ABCFAD2365A5BC00C47E1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40ABCFC42365AF8C00C47E1A /* MentalismMagic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MentalismMagic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40ABCFC72365AF8C00C47E1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		40ABCFC92365AF8C00C47E1A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		40ABCFCB2365AF8C00C47E1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		40ABCFCE2365AF8C00C47E1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40ABCFD12365AF8C00C47E1A /* MentalismMagic.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MentalismMagic.xcdatamodel; sourceTree = "<group>"; };
+		40ABCFD32365AF8C00C47E1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40ABCFD62365AF8C00C47E1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		40ABCFD82365AF8C00C47E1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40ABCFDE2365B03000C47E1A /* Cities.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Cities.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		40ABCF962365A5BB00C47E1A /* Frameworks */ = {
+		40ABCFC12365AF8C00C47E1A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,55 +41,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		40ABCF902365A5BB00C47E1A = {
+		40ABCFBB2365AF8C00C47E1A = {
 			isa = PBXGroup;
 			children = (
-				40ABCF9B2365A5BB00C47E1A /* MentalismMagic */,
-				40ABCF9A2365A5BB00C47E1A /* Products */,
+				40ABCFC62365AF8C00C47E1A /* MentalismMagic */,
+				40ABCFC52365AF8C00C47E1A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		40ABCF9A2365A5BB00C47E1A /* Products */ = {
+		40ABCFC52365AF8C00C47E1A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				40ABCF992365A5BB00C47E1A /* MentalismMagic.app */,
+				40ABCFC42365AF8C00C47E1A /* MentalismMagic.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		40ABCF9B2365A5BB00C47E1A /* MentalismMagic */ = {
+		40ABCFC62365AF8C00C47E1A /* MentalismMagic */ = {
 			isa = PBXGroup;
 			children = (
-				40ABCF9C2365A5BB00C47E1A /* AppDelegate.swift */,
-				40ABCF9E2365A5BB00C47E1A /* SceneDelegate.swift */,
-				40ABCFA32365A5BB00C47E1A /* ContentView.swift */,
-				40ABCFA52365A5BC00C47E1A /* Assets.xcassets */,
-				40ABCFAA2365A5BC00C47E1A /* LaunchScreen.storyboard */,
-				40ABCFAD2365A5BC00C47E1A /* Info.plist */,
-				40ABCFA02365A5BB00C47E1A /* MentalismMagic.xcdatamodeld */,
-				40ABCFA72365A5BC00C47E1A /* Preview Content */,
+				40ABCFC72365AF8C00C47E1A /* AppDelegate.swift */,
+				40ABCFC92365AF8C00C47E1A /* SceneDelegate.swift */,
+				40ABCFCB2365AF8C00C47E1A /* ViewController.swift */,
+				40ABCFCD2365AF8C00C47E1A /* Main.storyboard */,
+				40ABCFD32365AF8C00C47E1A /* Assets.xcassets */,
+				40ABCFD52365AF8C00C47E1A /* LaunchScreen.storyboard */,
+				40ABCFD82365AF8C00C47E1A /* Info.plist */,
+				40ABCFD02365AF8C00C47E1A /* MentalismMagic.xcdatamodeld */,
+				40ABCFDE2365B03000C47E1A /* Cities.rtf */,
 			);
 			path = MentalismMagic;
-			sourceTree = "<group>";
-		};
-		40ABCFA72365A5BC00C47E1A /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				40ABCFA82365A5BC00C47E1A /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		40ABCF982365A5BB00C47E1A /* MentalismMagic */ = {
+		40ABCFC32365AF8C00C47E1A /* MentalismMagic */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 40ABCFB02365A5BC00C47E1A /* Build configuration list for PBXNativeTarget "MentalismMagic" */;
+			buildConfigurationList = 40ABCFDB2365AF8C00C47E1A /* Build configuration list for PBXNativeTarget "MentalismMagic" */;
 			buildPhases = (
-				40ABCF952365A5BB00C47E1A /* Sources */,
-				40ABCF962365A5BB00C47E1A /* Frameworks */,
-				40ABCF972365A5BB00C47E1A /* Resources */,
+				40ABCFC02365AF8C00C47E1A /* Sources */,
+				40ABCFC12365AF8C00C47E1A /* Frameworks */,
+				40ABCFC22365AF8C00C47E1A /* Resources */,
 			);
 			buildRules = (
 			);
@@ -95,25 +90,25 @@
 			);
 			name = MentalismMagic;
 			productName = MentalismMagic;
-			productReference = 40ABCF992365A5BB00C47E1A /* MentalismMagic.app */;
+			productReference = 40ABCFC42365AF8C00C47E1A /* MentalismMagic.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		40ABCF912365A5BB00C47E1A /* Project object */ = {
+		40ABCFBC2365AF8C00C47E1A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1110;
 				LastUpgradeCheck = 1110;
 				ORGANIZATIONNAME = "Valerio Volpe";
 				TargetAttributes = {
-					40ABCF982365A5BB00C47E1A = {
+					40ABCFC32365AF8C00C47E1A = {
 						CreatedOnToolsVersion = 11.1;
 					};
 				};
 			};
-			buildConfigurationList = 40ABCF942365A5BB00C47E1A /* Build configuration list for PBXProject "MentalismMagic" */;
+			buildConfigurationList = 40ABCFBF2365AF8C00C47E1A /* Build configuration list for PBXProject "MentalismMagic" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -121,48 +116,57 @@
 				en,
 				Base,
 			);
-			mainGroup = 40ABCF902365A5BB00C47E1A;
-			productRefGroup = 40ABCF9A2365A5BB00C47E1A /* Products */;
+			mainGroup = 40ABCFBB2365AF8C00C47E1A;
+			productRefGroup = 40ABCFC52365AF8C00C47E1A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				40ABCF982365A5BB00C47E1A /* MentalismMagic */,
+				40ABCFC32365AF8C00C47E1A /* MentalismMagic */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		40ABCF972365A5BB00C47E1A /* Resources */ = {
+		40ABCFC22365AF8C00C47E1A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40ABCFAC2365A5BC00C47E1A /* LaunchScreen.storyboard in Resources */,
-				40ABCFA92365A5BC00C47E1A /* Preview Assets.xcassets in Resources */,
-				40ABCFA62365A5BC00C47E1A /* Assets.xcassets in Resources */,
+				40ABCFD72365AF8C00C47E1A /* LaunchScreen.storyboard in Resources */,
+				40ABCFD42365AF8C00C47E1A /* Assets.xcassets in Resources */,
+				40ABCFDF2365B03000C47E1A /* Cities.rtf in Resources */,
+				40ABCFCF2365AF8C00C47E1A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		40ABCF952365A5BB00C47E1A /* Sources */ = {
+		40ABCFC02365AF8C00C47E1A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40ABCF9D2365A5BB00C47E1A /* AppDelegate.swift in Sources */,
-				40ABCFA22365A5BB00C47E1A /* MentalismMagic.xcdatamodeld in Sources */,
-				40ABCFA42365A5BB00C47E1A /* ContentView.swift in Sources */,
-				40ABCF9F2365A5BB00C47E1A /* SceneDelegate.swift in Sources */,
+				40ABCFCC2365AF8C00C47E1A /* ViewController.swift in Sources */,
+				40ABCFC82365AF8C00C47E1A /* AppDelegate.swift in Sources */,
+				40ABCFD22365AF8C00C47E1A /* MentalismMagic.xcdatamodeld in Sources */,
+				40ABCFCA2365AF8C00C47E1A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		40ABCFAA2365A5BC00C47E1A /* LaunchScreen.storyboard */ = {
+		40ABCFCD2365AF8C00C47E1A /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				40ABCFAB2365A5BC00C47E1A /* Base */,
+				40ABCFCE2365AF8C00C47E1A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		40ABCFD52365AF8C00C47E1A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40ABCFD62365AF8C00C47E1A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -170,7 +174,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		40ABCFAE2365A5BC00C47E1A /* Debug */ = {
+		40ABCFD92365AF8C00C47E1A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -230,7 +234,7 @@
 			};
 			name = Debug;
 		};
-		40ABCFAF2365A5BC00C47E1A /* Release */ = {
+		40ABCFDA2365AF8C00C47E1A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -284,14 +288,12 @@
 			};
 			name = Release;
 		};
-		40ABCFB12365A5BC00C47E1A /* Debug */ = {
+		40ABCFDC2365AF8C00C47E1A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"MentalismMagic/Preview Content\"";
 				DEVELOPMENT_TEAM = 857U4QUPC3;
-				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = MentalismMagic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -304,14 +306,12 @@
 			};
 			name = Debug;
 		};
-		40ABCFB22365A5BC00C47E1A /* Release */ = {
+		40ABCFDD2365AF8C00C47E1A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"MentalismMagic/Preview Content\"";
 				DEVELOPMENT_TEAM = 857U4QUPC3;
-				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = MentalismMagic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -327,20 +327,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		40ABCF942365A5BB00C47E1A /* Build configuration list for PBXProject "MentalismMagic" */ = {
+		40ABCFBF2365AF8C00C47E1A /* Build configuration list for PBXProject "MentalismMagic" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				40ABCFAE2365A5BC00C47E1A /* Debug */,
-				40ABCFAF2365A5BC00C47E1A /* Release */,
+				40ABCFD92365AF8C00C47E1A /* Debug */,
+				40ABCFDA2365AF8C00C47E1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		40ABCFB02365A5BC00C47E1A /* Build configuration list for PBXNativeTarget "MentalismMagic" */ = {
+		40ABCFDB2365AF8C00C47E1A /* Build configuration list for PBXNativeTarget "MentalismMagic" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				40ABCFB12365A5BC00C47E1A /* Debug */,
-				40ABCFB22365A5BC00C47E1A /* Release */,
+				40ABCFDC2365AF8C00C47E1A /* Debug */,
+				40ABCFDD2365AF8C00C47E1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -348,17 +348,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		40ABCFA02365A5BB00C47E1A /* MentalismMagic.xcdatamodeld */ = {
+		40ABCFD02365AF8C00C47E1A /* MentalismMagic.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				40ABCFA12365A5BB00C47E1A /* MentalismMagic.xcdatamodel */,
+				40ABCFD12365AF8C00C47E1A /* MentalismMagic.xcdatamodel */,
 			);
-			currentVersion = 40ABCFA12365A5BB00C47E1A /* MentalismMagic.xcdatamodel */;
+			currentVersion = 40ABCFD12365AF8C00C47E1A /* MentalismMagic.xcdatamodel */;
 			path = MentalismMagic.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = 40ABCF912365A5BB00C47E1A /* Project object */;
+	rootObject = 40ABCFBC2365AF8C00C47E1A /* Project object */;
 }
