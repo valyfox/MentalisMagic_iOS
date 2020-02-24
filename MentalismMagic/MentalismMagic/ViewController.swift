@@ -14,14 +14,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        if let path = Bundle.main.path(forResource: "Cities", ofType: "txt") {
-            do {
-                let data = try String(contentsOfFile: path, encoding: .utf8)
-                let myStrings = data.components(separatedBy: .newlines)
-                print(myStrings)
-            } catch let error {
-                print("Got an error \(error)")
-            }
+        if let (dritte, curve) = WordParser.shared.parse(fileName: "pius") {
+            print(dritte, curve)
+            print(dritte.count, curve.count)
         }
     }
 
