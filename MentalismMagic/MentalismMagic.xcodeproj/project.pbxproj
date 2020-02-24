@@ -10,6 +10,8 @@
 		409801F0240442830037F7A6 /* Cities.txt in Resources */ = {isa = PBXBuildFile; fileRef = 409801EF240442830037F7A6 /* Cities.txt */; };
 		409801F224044A4D0037F7A6 /* GuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409801F124044A4D0037F7A6 /* GuideViewController.swift */; };
 		409801F42404516C0037F7A6 /* WordParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409801F32404516C0037F7A6 /* WordParser.swift */; };
+		409801F6240454930037F7A6 /* WordsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409801F5240454930037F7A6 /* WordsTableViewController.swift */; };
+		409801F8240454D70037F7A6 /* WordTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409801F7240454D70037F7A6 /* WordTableViewCell.swift */; };
 		40ABCFC82365AF8C00C47E1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ABCFC72365AF8C00C47E1A /* AppDelegate.swift */; };
 		40ABCFCA2365AF8C00C47E1A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ABCFC92365AF8C00C47E1A /* SceneDelegate.swift */; };
 		40ABCFCC2365AF8C00C47E1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ABCFCB2365AF8C00C47E1A /* ViewController.swift */; };
@@ -24,6 +26,8 @@
 		409801EF240442830037F7A6 /* Cities.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cities.txt; sourceTree = "<group>"; };
 		409801F124044A4D0037F7A6 /* GuideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideViewController.swift; sourceTree = "<group>"; };
 		409801F32404516C0037F7A6 /* WordParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordParser.swift; sourceTree = "<group>"; };
+		409801F5240454930037F7A6 /* WordsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsTableViewController.swift; sourceTree = "<group>"; };
+		409801F7240454D70037F7A6 /* WordTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordTableViewCell.swift; sourceTree = "<group>"; };
 		40ABCFC42365AF8C00C47E1A /* MentalismMagic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MentalismMagic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40ABCFC72365AF8C00C47E1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40ABCFC92365AF8C00C47E1A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +82,8 @@
 				40ABCFDE2365B03000C47E1A /* Cities.rtf */,
 				409801EF240442830037F7A6 /* Cities.txt */,
 				409801F124044A4D0037F7A6 /* GuideViewController.swift */,
+				409801F5240454930037F7A6 /* WordsTableViewController.swift */,
+				409801F7240454D70037F7A6 /* WordTableViewCell.swift */,
 			);
 			path = MentalismMagic;
 			sourceTree = "<group>";
@@ -155,6 +161,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				409801F6240454930037F7A6 /* WordsTableViewController.swift in Sources */,
+				409801F8240454D70037F7A6 /* WordTableViewCell.swift in Sources */,
 				409801F42404516C0037F7A6 /* WordParser.swift in Sources */,
 				40ABCFCC2365AF8C00C47E1A /* ViewController.swift in Sources */,
 				40ABCFC82365AF8C00C47E1A /* AppDelegate.swift in Sources */,
