@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4049B11424058A5D00852DF0 /* TrickViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4049B11324058A5D00852DF0 /* TrickViewController.swift */; };
+		4049B118240593F700852DF0 /* optionsStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4049B117240593F700852DF0 /* optionsStrings.swift */; };
+		4049B11A2405946700852DF0 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4049B1192405946700852DF0 /* MenuViewController.swift */; };
+		4049B11C240597FD00852DF0 /* alphabet.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4049B11B240597FD00852DF0 /* alphabet.txt */; };
 		409801F0240442830037F7A6 /* Cities.txt in Resources */ = {isa = PBXBuildFile; fileRef = 409801EF240442830037F7A6 /* Cities.txt */; };
 		409801F224044A4D0037F7A6 /* GuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409801F124044A4D0037F7A6 /* GuideViewController.swift */; };
 		409801F42404516C0037F7A6 /* WordParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409801F32404516C0037F7A6 /* WordParser.swift */; };
@@ -19,10 +23,13 @@
 		40ABCFD22365AF8C00C47E1A /* MentalismMagic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 40ABCFD02365AF8C00C47E1A /* MentalismMagic.xcdatamodeld */; };
 		40ABCFD42365AF8C00C47E1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40ABCFD32365AF8C00C47E1A /* Assets.xcassets */; };
 		40ABCFD72365AF8C00C47E1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40ABCFD52365AF8C00C47E1A /* LaunchScreen.storyboard */; };
-		40ABCFDF2365B03000C47E1A /* Cities.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 40ABCFDE2365B03000C47E1A /* Cities.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4049B11324058A5D00852DF0 /* TrickViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrickViewController.swift; sourceTree = "<group>"; };
+		4049B117240593F700852DF0 /* optionsStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = optionsStrings.swift; sourceTree = "<group>"; };
+		4049B1192405946700852DF0 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		4049B11B240597FD00852DF0 /* alphabet.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = alphabet.txt; sourceTree = "<group>"; };
 		409801EF240442830037F7A6 /* Cities.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cities.txt; sourceTree = "<group>"; };
 		409801F124044A4D0037F7A6 /* GuideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideViewController.swift; sourceTree = "<group>"; };
 		409801F32404516C0037F7A6 /* WordParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordParser.swift; sourceTree = "<group>"; };
@@ -37,7 +44,6 @@
 		40ABCFD32365AF8C00C47E1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40ABCFD62365AF8C00C47E1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40ABCFD82365AF8C00C47E1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		40ABCFDE2365B03000C47E1A /* Cities.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Cities.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +76,7 @@
 		40ABCFC62365AF8C00C47E1A /* MentalismMagic */ = {
 			isa = PBXGroup;
 			children = (
+				4049B11B240597FD00852DF0 /* alphabet.txt */,
 				40ABCFC72365AF8C00C47E1A /* AppDelegate.swift */,
 				40ABCFC92365AF8C00C47E1A /* SceneDelegate.swift */,
 				40ABCFCB2365AF8C00C47E1A /* ViewController.swift */,
@@ -79,11 +86,13 @@
 				40ABCFD52365AF8C00C47E1A /* LaunchScreen.storyboard */,
 				40ABCFD82365AF8C00C47E1A /* Info.plist */,
 				40ABCFD02365AF8C00C47E1A /* MentalismMagic.xcdatamodeld */,
-				40ABCFDE2365B03000C47E1A /* Cities.rtf */,
 				409801EF240442830037F7A6 /* Cities.txt */,
 				409801F124044A4D0037F7A6 /* GuideViewController.swift */,
 				409801F5240454930037F7A6 /* WordsTableViewController.swift */,
 				409801F7240454D70037F7A6 /* WordTableViewCell.swift */,
+				4049B11324058A5D00852DF0 /* TrickViewController.swift */,
+				4049B117240593F700852DF0 /* optionsStrings.swift */,
+				4049B1192405946700852DF0 /* MenuViewController.swift */,
 			);
 			path = MentalismMagic;
 			sourceTree = "<group>";
@@ -149,7 +158,7 @@
 				40ABCFD72365AF8C00C47E1A /* LaunchScreen.storyboard in Resources */,
 				409801F0240442830037F7A6 /* Cities.txt in Resources */,
 				40ABCFD42365AF8C00C47E1A /* Assets.xcassets in Resources */,
-				40ABCFDF2365B03000C47E1A /* Cities.rtf in Resources */,
+				4049B11C240597FD00852DF0 /* alphabet.txt in Resources */,
 				40ABCFCF2365AF8C00C47E1A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -165,10 +174,13 @@
 				409801F8240454D70037F7A6 /* WordTableViewCell.swift in Sources */,
 				409801F42404516C0037F7A6 /* WordParser.swift in Sources */,
 				40ABCFCC2365AF8C00C47E1A /* ViewController.swift in Sources */,
+				4049B11A2405946700852DF0 /* MenuViewController.swift in Sources */,
 				40ABCFC82365AF8C00C47E1A /* AppDelegate.swift in Sources */,
 				40ABCFD22365AF8C00C47E1A /* MentalismMagic.xcdatamodeld in Sources */,
 				409801F224044A4D0037F7A6 /* GuideViewController.swift in Sources */,
 				40ABCFCA2365AF8C00C47E1A /* SceneDelegate.swift in Sources */,
+				4049B11424058A5D00852DF0 /* TrickViewController.swift in Sources */,
+				4049B118240593F700852DF0 /* optionsStrings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

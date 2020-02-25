@@ -10,16 +10,28 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var menuButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        if let tokyo = WordParser.shared.selectWord(fileName: "Cities", word: "Tokyo"){
-            print(tokyo)
-            print(tokyo.count)
+        self.navigationController?.viewControllers = [self]
+        
+//        if let tokyo = WordParser.shared.selectWord(fileName: "Cities", word: "Tokyo"){
+//            print(tokyo)
+//            print(tokyo.count)
+//        }
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        if UserDefaults.standard.bool(forKey: Options.MENU_BUTTON) {
+            menuButton.backgroundColor = UIColor.clear
+            menuButton.tintColor = UIColor.clear
+        } else {
+            menuButton.backgroundColor = #colorLiteral(red: 0.3411764801, green: 0.6235294342, blue: 0.1686274558, alpha: 1)
+            menuButton.tintColor = #colorLiteral(red: 0.2196078449, green: 0.007843137719, blue: 0.8549019694, alpha: 1)
         }
     }
-
-
 }
 

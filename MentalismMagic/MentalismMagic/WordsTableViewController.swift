@@ -10,6 +10,9 @@ import UIKit
 
 class WordsTableViewController: UITableViewController {
     
+    let trickSegueIdentifier = "startTrick"
+    let cellIdentifier = "wordCell"
+    
     var filename = "Cities"
     
     var words: [String] = []
@@ -31,25 +34,31 @@ class WordsTableViewController: UITableViewController {
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
         return words.count
     }
 
     
-    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "wordCell", for: indexPath) as! WordTableViewCell
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {        
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as? WordTableViewCell  else {
+            fatalError("The dequeued cell is not an instance of MealTableViewCell.")
+        }
 
         // Configure the cell...
+
         cell.wordLabel.text = words[indexPath.row]
 
         return cell
     }
     
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        
+        performSegue(withIdentifier: trickSegueIdentifier, sender: words[indexPath.row])
+    }
 
     /*
     // Override to support conditional editing of the table view.
@@ -86,14 +95,21 @@ class WordsTableViewController: UITableViewController {
     }
     */
 
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
+        
+        if segue.identifier == trickSegueIdentifier {
+              if let destVC = segue.destination as? TrickViewController {
+                 destVC.selectedWord = sender as! String
+                destVC.filename = filename
+          }
+        }
     }
-    */
+    
 
 }

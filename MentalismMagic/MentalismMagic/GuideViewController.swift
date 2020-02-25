@@ -60,6 +60,8 @@ class GuideViewController: UIViewController {
         "B, C, D, G, J, O, P, Q, R, S, U"
     ]
 
+    let practiceSegueIdentifier = "precticeSegue"
+    
     var guideIndex = 0
     
     @IBOutlet weak var textField: UITextView!
@@ -100,14 +102,23 @@ class GuideViewController: UIViewController {
         if(guideIndex > 0) {previousButton.isEnabled = true}
     }
     
-    /*
+    @IBAction func startPractice(_ sender: Any) {
+        performSegue(withIdentifier: practiceSegueIdentifier, sender: sender)
+    }
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
+     
+     if segue.identifier == practiceSegueIdentifier {
+                        if let destVC = segue.destination as? WordsTableViewController {
+                          destVC.filename = "alphabet"
+                    }
+                  }
     }
-    */
+    
 
 }
