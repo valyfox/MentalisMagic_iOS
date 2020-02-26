@@ -17,15 +17,6 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         self.navigationController?.viewControllers = [self]
-        
-for family: String in UIFont.familyNames
-       {
-           print(family)
-           for names: String in UIFont.fontNames(forFamilyName: family)
-           {
-               print("== \(names)")
-           }
-        }
     }
     
     override func viewWillAppear(_ animated: Bool) {
