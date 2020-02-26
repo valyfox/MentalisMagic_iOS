@@ -33,7 +33,6 @@ class GuideViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
         textField.text = guide[guideIndex]
         previousButton.isEnabled = false
         nextButton.isEnabled = true
@@ -70,10 +69,7 @@ class GuideViewController: UIViewController {
     
     // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
      
      if segue.identifier == practiceSegueIdentifier {
                         if let destVC = segue.destination as? WordsTableViewController {

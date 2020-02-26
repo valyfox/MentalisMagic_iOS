@@ -30,8 +30,7 @@ class TrickViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
-        if let w = WordParser.shared.selectWord(fileName: filename, word: selectedWord) {
+        if let w = WordParser.selectWord(fileName: filename, word: selectedWord) {
             otherWords = w
         }
         
@@ -70,18 +69,9 @@ class TrickViewController: UIViewController {
     @IBAction func shuffle(_ sender: Any) {
         shuffleWords()
     }
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
-
+// extract n random elements from the array
 extension Collection {
     func choose(_ n: Int) -> ArraySlice<Element> { shuffled().prefix(n) }
 }
