@@ -22,7 +22,7 @@ class WordParser {
         if let path = Bundle.main.path(forResource: fileName, ofType: "txt") {
             do {
                 let data = try String(contentsOfFile: path, encoding: .utf8)
-                let list = data.components(separatedBy: .newlines).filter { alphabet.contains($0.prefix(1).capitalized) }
+                let list = data.components(separatedBy: .newlines).filter { alphabet.contains($0.prefix(1).capitalized) }.sorted()
                 return list
             } catch let error {
                 print("Got an error \(error)")
