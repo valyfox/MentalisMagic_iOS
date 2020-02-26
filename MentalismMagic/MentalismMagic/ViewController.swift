@@ -24,8 +24,8 @@ class ViewController: UIViewController {
             menuButton.backgroundColor = UIColor.clear
             menuButton.tintColor = UIColor.clear
         } else {
-            menuButton.backgroundColor = #colorLiteral(red: 0.3411764801, green: 0.6235294342, blue: 0.1686274558, alpha: 1)
-            menuButton.tintColor = #colorLiteral(red: 0.2196078449, green: 0.007843137719, blue: 0.8549019694, alpha: 1)
+            menuButton.backgroundColor = UIColor(named: Options.COLOR_ACCENT)
+            menuButton.tintColor = UIColor(named: Options.COLOR_CONTRAST_LIGHT)
         }
     }
 }

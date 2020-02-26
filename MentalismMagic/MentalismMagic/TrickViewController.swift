@@ -49,19 +49,21 @@ class TrickViewController: UIViewController {
         shuffleWords()
        
     }
-    
+        
     func shuffleWords() {
         let words = otherWords.choose(labels.count)
         
         for i in 0..<labels.count {
             labels[i].text = words[i]
             labels[i].backgroundColor = UIColor.clear
+            labels[i].textColor = UIColor(named: Options.COLOR_CONTRAST_LIGHT)
         }
         
         let index = Int.random(in: 0 ..< labels.count)
         labels[index].text = selectedWord
         if(UserDefaults.standard.bool(forKey: Options.HIGHLIGHT)) {
-            labels[index].backgroundColor = #colorLiteral(red: 0.4666666687, green: 0.7647058964, blue: 0.2666666806, alpha: 1)
+            labels[index].backgroundColor = UIColor(named: Options.COLOR_ACCENT)
+            labels[index].textColor = UIColor(named: Options.COLOR_CONTRAST_DARK)
         }
     }
 
