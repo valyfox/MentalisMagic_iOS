@@ -45,10 +45,10 @@
             </objects>
             <point key="canvasLocation" x="81" y="117"/>
         </scene>
-        <!--View Controller-->
+        <!--Select Category View Controller-->
         <scene sceneID="skG-3D-1He">
             <objects>
-                <viewController id="U4e-aX-qaE" sceneMemberID="viewController">
+                <viewController id="U4e-aX-qaE" customClass="SelectCategoryViewController" customModule="MentalismMagic" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Trc-kv-SM2">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -58,7 +58,39 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Cities"/>
                                 <connections>
-                                    <segue destination="7zN-mK-lzc" kind="show" id="xUA-L5-Lpa"/>
+                                    <action selector="selectCity:" destination="U4e-aX-qaE" eventType="touchUpInside" id="Mre-sp-gNo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bPM-wK-5p6">
+                                <rect key="frame" x="181" y="197" width="53" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Colours"/>
+                                <connections>
+                                    <action selector="selectColour:" destination="U4e-aX-qaE" eventType="touchUpInside" id="wlm-6c-HnU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oye-ys-Pys">
+                                <rect key="frame" x="188" y="169" width="39" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Fruits"/>
+                                <connections>
+                                    <action selector="selectFruit:" destination="U4e-aX-qaE" eventType="touchUpInside" id="VyA-cy-KNW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LMu-ns-xVv">
+                                <rect key="frame" x="165" y="235" width="85" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Videogames"/>
+                                <connections>
+                                    <action selector="selectVideogame:" destination="U4e-aX-qaE" eventType="touchUpInside" id="ayY-Bm-A3X"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JMX-1z-qcT">
+                                <rect key="frame" x="170" y="273" width="74" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Celebrities"/>
+                                <connections>
+                                    <action selector="selectCelebrity:" destination="U4e-aX-qaE" eventType="touchUpInside" id="d00-52-32o"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -66,6 +98,9 @@
                         <viewLayoutGuide key="safeArea" id="f3C-UO-bfa"/>
                     </view>
                     <navigationItem key="navigationItem" id="Vmy-1U-tAv"/>
+                    <connections>
+                        <segue destination="7zN-mK-lzc" kind="show" identifier="selectWordSegue" id="JzN-l5-RAq"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C8i-U7-kFK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -373,7 +408,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="72k-xe-YUc"/>
+        <segue reference="JzN-l5-RAq"/>
         <segue reference="hB5-mC-5sY"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -11,7 +11,7 @@ import UIKit
 class TrickViewController: UIViewController {
     
     var selectedWord = ""
-    var filename = "Cities"
+    var filename = "CitiesEN"
     var otherWords: [String] = []
 
     @IBOutlet weak var label0: UILabel!

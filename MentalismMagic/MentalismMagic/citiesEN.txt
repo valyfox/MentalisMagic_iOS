@@ -1,0 +1,41 @@
+#Cities
+Tokyo
+New York
+Mexico City
+Sao Paolo
+Los Angeles
+Shanghai
+Seoul
+Osaka
+London
+Calcutta
+Paris
+Rio de Janeiro
+Delhi
+Manila
+Istanbul
+Beijing
+Rome
+Milan
+Naples
+Athens
+Barcelona
+Boston
+Bristol
+Brighton
+Chicago
+Manchester
+Miami
+Lisbon
+Medellin
+Melbourne
+Minneapolis
+Montreal
+Nairobi
+Rotterdam
+Salvador
+San Francisco
+Singapore
+Sydney
+Abu Dhabi
+Hong Kong

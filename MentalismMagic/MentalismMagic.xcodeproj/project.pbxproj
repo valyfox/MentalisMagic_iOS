@@ -11,11 +11,21 @@
 		4049B118240593F700852DF0 /* optionsStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4049B117240593F700852DF0 /* optionsStrings.swift */; };
 		4049B11A2405946700852DF0 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4049B1192405946700852DF0 /* MenuViewController.swift */; };
 		4049B11C240597FD00852DF0 /* alphabet.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4049B11B240597FD00852DF0 /* alphabet.txt */; };
-		409801F0240442830037F7A6 /* Cities.txt in Resources */ = {isa = PBXBuildFile; fileRef = 409801EF240442830037F7A6 /* Cities.txt */; };
 		409801F224044A4D0037F7A6 /* GuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409801F124044A4D0037F7A6 /* GuideViewController.swift */; };
 		409801F42404516C0037F7A6 /* WordParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409801F32404516C0037F7A6 /* WordParser.swift */; };
 		409801F6240454930037F7A6 /* WordsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409801F5240454930037F7A6 /* WordsTableViewController.swift */; };
 		409801F8240454D70037F7A6 /* WordTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409801F7240454D70037F7A6 /* WordTableViewCell.swift */; };
+		40A6B84E2406D55400D2D1DC /* SelectCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A6B84D2406D55400D2D1DC /* SelectCategoryViewController.swift */; };
+		40A6B85A2406D8BA00D2D1DC /* celebritiesEN.txt in Resources */ = {isa = PBXBuildFile; fileRef = 40A6B84F2406D8BA00D2D1DC /* celebritiesEN.txt */; };
+		40A6B85B2406D8BA00D2D1DC /* fruitsIT.txt in Resources */ = {isa = PBXBuildFile; fileRef = 40A6B8502406D8BA00D2D1DC /* fruitsIT.txt */; };
+		40A6B85C2406D8BA00D2D1DC /* videogames.txt in Resources */ = {isa = PBXBuildFile; fileRef = 40A6B8512406D8BA00D2D1DC /* videogames.txt */; };
+		40A6B85D2406D8BA00D2D1DC /* coloursEN.txt in Resources */ = {isa = PBXBuildFile; fileRef = 40A6B8522406D8BA00D2D1DC /* coloursEN.txt */; };
+		40A6B85E2406D8BA00D2D1DC /* citiesEN.txt in Resources */ = {isa = PBXBuildFile; fileRef = 40A6B8532406D8BA00D2D1DC /* citiesEN.txt */; };
+		40A6B85F2406D8BA00D2D1DC /* celebritiesIT.txt in Resources */ = {isa = PBXBuildFile; fileRef = 40A6B8542406D8BA00D2D1DC /* celebritiesIT.txt */; };
+		40A6B8602406D8BA00D2D1DC /* coloursIT.txt in Resources */ = {isa = PBXBuildFile; fileRef = 40A6B8552406D8BA00D2D1DC /* coloursIT.txt */; };
+		40A6B8612406D8BA00D2D1DC /* citiesIT.txt in Resources */ = {isa = PBXBuildFile; fileRef = 40A6B8562406D8BA00D2D1DC /* citiesIT.txt */; };
+		40A6B8622406D8BA00D2D1DC /* fruitsEN.txt in Resources */ = {isa = PBXBuildFile; fileRef = 40A6B8572406D8BA00D2D1DC /* fruitsEN.txt */; };
+		40A6B8632406D8BA00D2D1DC /* MentalismMagic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 40A6B8582406D8BA00D2D1DC /* MentalismMagic.xcdatamodeld */; };
 		40ABCFC82365AF8C00C47E1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ABCFC72365AF8C00C47E1A /* AppDelegate.swift */; };
 		40ABCFCA2365AF8C00C47E1A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ABCFC92365AF8C00C47E1A /* SceneDelegate.swift */; };
 		40ABCFCC2365AF8C00C47E1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ABCFCB2365AF8C00C47E1A /* ViewController.swift */; };
@@ -30,11 +40,21 @@
 		4049B117240593F700852DF0 /* optionsStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = optionsStrings.swift; sourceTree = "<group>"; };
 		4049B1192405946700852DF0 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		4049B11B240597FD00852DF0 /* alphabet.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = alphabet.txt; sourceTree = "<group>"; };
-		409801EF240442830037F7A6 /* Cities.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cities.txt; sourceTree = "<group>"; };
 		409801F124044A4D0037F7A6 /* GuideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideViewController.swift; sourceTree = "<group>"; };
 		409801F32404516C0037F7A6 /* WordParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordParser.swift; sourceTree = "<group>"; };
 		409801F5240454930037F7A6 /* WordsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsTableViewController.swift; sourceTree = "<group>"; };
 		409801F7240454D70037F7A6 /* WordTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordTableViewCell.swift; sourceTree = "<group>"; };
+		40A6B84D2406D55400D2D1DC /* SelectCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCategoryViewController.swift; sourceTree = "<group>"; };
+		40A6B84F2406D8BA00D2D1DC /* celebritiesEN.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = celebritiesEN.txt; sourceTree = "<group>"; };
+		40A6B8502406D8BA00D2D1DC /* fruitsIT.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fruitsIT.txt; sourceTree = "<group>"; };
+		40A6B8512406D8BA00D2D1DC /* videogames.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = videogames.txt; sourceTree = "<group>"; };
+		40A6B8522406D8BA00D2D1DC /* coloursEN.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = coloursEN.txt; sourceTree = "<group>"; };
+		40A6B8532406D8BA00D2D1DC /* citiesEN.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = citiesEN.txt; sourceTree = "<group>"; };
+		40A6B8542406D8BA00D2D1DC /* celebritiesIT.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = celebritiesIT.txt; sourceTree = "<group>"; };
+		40A6B8552406D8BA00D2D1DC /* coloursIT.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = coloursIT.txt; sourceTree = "<group>"; };
+		40A6B8562406D8BA00D2D1DC /* citiesIT.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = citiesIT.txt; sourceTree = "<group>"; };
+		40A6B8572406D8BA00D2D1DC /* fruitsEN.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fruitsEN.txt; sourceTree = "<group>"; };
+		40A6B8592406D8BA00D2D1DC /* MentalismMagic.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MentalismMagic.xcdatamodel; sourceTree = "<group>"; };
 		40ABCFC42365AF8C00C47E1A /* MentalismMagic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MentalismMagic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40ABCFC72365AF8C00C47E1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40ABCFC92365AF8C00C47E1A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +96,16 @@
 		40ABCFC62365AF8C00C47E1A /* MentalismMagic */ = {
 			isa = PBXGroup;
 			children = (
+				40A6B84F2406D8BA00D2D1DC /* celebritiesEN.txt */,
+				40A6B8542406D8BA00D2D1DC /* celebritiesIT.txt */,
+				40A6B8532406D8BA00D2D1DC /* citiesEN.txt */,
+				40A6B8562406D8BA00D2D1DC /* citiesIT.txt */,
+				40A6B8522406D8BA00D2D1DC /* coloursEN.txt */,
+				40A6B8552406D8BA00D2D1DC /* coloursIT.txt */,
+				40A6B8572406D8BA00D2D1DC /* fruitsEN.txt */,
+				40A6B8502406D8BA00D2D1DC /* fruitsIT.txt */,
+				40A6B8582406D8BA00D2D1DC /* MentalismMagic.xcdatamodeld */,
+				40A6B8512406D8BA00D2D1DC /* videogames.txt */,
 				4049B11B240597FD00852DF0 /* alphabet.txt */,
 				40ABCFC72365AF8C00C47E1A /* AppDelegate.swift */,
 				40ABCFC92365AF8C00C47E1A /* SceneDelegate.swift */,
@@ -86,13 +116,13 @@
 				40ABCFD52365AF8C00C47E1A /* LaunchScreen.storyboard */,
 				40ABCFD82365AF8C00C47E1A /* Info.plist */,
 				40ABCFD02365AF8C00C47E1A /* MentalismMagic.xcdatamodeld */,
-				409801EF240442830037F7A6 /* Cities.txt */,
 				409801F124044A4D0037F7A6 /* GuideViewController.swift */,
 				409801F5240454930037F7A6 /* WordsTableViewController.swift */,
 				409801F7240454D70037F7A6 /* WordTableViewCell.swift */,
 				4049B11324058A5D00852DF0 /* TrickViewController.swift */,
 				4049B117240593F700852DF0 /* optionsStrings.swift */,
 				4049B1192405946700852DF0 /* MenuViewController.swift */,
+				40A6B84D2406D55400D2D1DC /* SelectCategoryViewController.swift */,
 			);
 			path = MentalismMagic;
 			sourceTree = "<group>";
@@ -155,11 +185,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40A6B85C2406D8BA00D2D1DC /* videogames.txt in Resources */,
 				40ABCFD72365AF8C00C47E1A /* LaunchScreen.storyboard in Resources */,
-				409801F0240442830037F7A6 /* Cities.txt in Resources */,
+				40A6B85A2406D8BA00D2D1DC /* celebritiesEN.txt in Resources */,
+				40A6B85E2406D8BA00D2D1DC /* citiesEN.txt in Resources */,
 				40ABCFD42365AF8C00C47E1A /* Assets.xcassets in Resources */,
 				4049B11C240597FD00852DF0 /* alphabet.txt in Resources */,
+				40A6B8612406D8BA00D2D1DC /* citiesIT.txt in Resources */,
 				40ABCFCF2365AF8C00C47E1A /* Main.storyboard in Resources */,
+				40A6B85F2406D8BA00D2D1DC /* celebritiesIT.txt in Resources */,
+				40A6B85B2406D8BA00D2D1DC /* fruitsIT.txt in Resources */,
+				40A6B85D2406D8BA00D2D1DC /* coloursEN.txt in Resources */,
+				40A6B8622406D8BA00D2D1DC /* fruitsEN.txt in Resources */,
+				40A6B8602406D8BA00D2D1DC /* coloursIT.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,9 +214,11 @@
 				40ABCFCC2365AF8C00C47E1A /* ViewController.swift in Sources */,
 				4049B11A2405946700852DF0 /* MenuViewController.swift in Sources */,
 				40ABCFC82365AF8C00C47E1A /* AppDelegate.swift in Sources */,
+				40A6B84E2406D55400D2D1DC /* SelectCategoryViewController.swift in Sources */,
 				40ABCFD22365AF8C00C47E1A /* MentalismMagic.xcdatamodeld in Sources */,
 				409801F224044A4D0037F7A6 /* GuideViewController.swift in Sources */,
 				40ABCFCA2365AF8C00C47E1A /* SceneDelegate.swift in Sources */,
+				40A6B8632406D8BA00D2D1DC /* MentalismMagic.xcdatamodeld in Sources */,
 				4049B11424058A5D00852DF0 /* TrickViewController.swift in Sources */,
 				4049B118240593F700852DF0 /* optionsStrings.swift in Sources */,
 			);
@@ -380,6 +420,16 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
+		40A6B8582406D8BA00D2D1DC /* MentalismMagic.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				40A6B8592406D8BA00D2D1DC /* MentalismMagic.xcdatamodel */,
+			);
+			currentVersion = 40A6B8592406D8BA00D2D1DC /* MentalismMagic.xcdatamodel */;
+			path = MentalismMagic.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
 		40ABCFD02365AF8C00C47E1A /* MentalismMagic.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (

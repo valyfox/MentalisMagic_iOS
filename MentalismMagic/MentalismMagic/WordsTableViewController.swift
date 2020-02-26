@@ -13,7 +13,7 @@ class WordsTableViewController: UITableViewController {
     let trickSegueIdentifier = "startTrick"
     let cellIdentifier = "wordCell"
     
-    var filename = "Cities"
+    var filename = "CitiesEN"
     
     var words: [String] = []
 

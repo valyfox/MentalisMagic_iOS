@@ -1,41 +1,41 @@
-#Cities
+#Citta'
 Tokyo
 New York
-Mexico City
-Sao Paolo
+Messico
 Los Angeles
 Shanghai
+Mumbai
 Seoul
 Osaka
-London
+Londra
+Lagos
 Calcutta
-Paris
-Rio de Janeiro
+Parigi
+Karachi
 Delhi
 Manila
-Istanbul
-Beijing
-Rome
-Milan
-Naples
-Athens
-Barcelona
+Instambul
+Pechino
+Roma
+Milano
+Napoli
+Atene
 Boston
-Bristol
 Brighton
-Chicago
+Dallas
 Manchester
 Miami
-Lisbon
+Lisbona
+Luxor
 Medellin
 Melbourne
 Minneapolis
 Montreal
 Nairobi
+New Orleans
 Rotterdam
-Salvador
-San Francisco
 Singapore
 Sydney
+Toronto
 Abu Dhabi
 Hong Kong
