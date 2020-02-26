@@ -20,6 +20,8 @@ class WordsTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+//        tableView.backgroundView?.backgroundColor = UIColor(named: Options.COLOR_DARK)
+        
         if let w = WordParser.makeList(fileName: filename) {
             words = w
         }
@@ -38,7 +40,7 @@ class WordsTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {        
         guard let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as? WordTableViewCell  else {
-            fatalError("The dequeued cell is not an instance of MealTableViewCell.")
+            fatalError("The dequeued cell is not an instance of WordTableViewCell.")
         }
 
         cell.wordLabel.text = words[indexPath.row]
@@ -47,7 +49,6 @@ class WordsTableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
         
         performSegue(withIdentifier: trickSegueIdentifier, sender: words[indexPath.row])
     }

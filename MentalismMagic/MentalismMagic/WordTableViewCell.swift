@@ -14,11 +14,20 @@ class WordTableViewCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
+        
+        
+    }
+    
+    override func setHighlighted(_ highlighted: Bool, animated: Bool) {
+       if(highlighted) {
+            wordLabel.backgroundColor = UIColor(named: Options.COLOR_ACCENT)
+        } else {
+            wordLabel.backgroundColor = UIColor(named: Options.COLOR_PRIMARY)
+        }
     }
 
 }

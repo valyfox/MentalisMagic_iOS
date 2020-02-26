@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="GV1-Fe-IYe">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="GV1-Fe-IYe">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -18,12 +18,12 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MentalismMagic" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OyD-is-0vu">
-                                <rect key="frame" x="146" y="618" width="122" height="108"/>
-                                <color key="backgroundColor" name="ColorPrimay"/>
+                                <rect key="frame" x="146" y="584" width="122" height="108"/>
+                                <color key="backgroundColor" name="ColorPrimary"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="108" id="sSt-Py-u9E"/>
                                 </constraints>
@@ -31,21 +31,26 @@
                                 <state key="normal" title="Menu">
                                     <color key="titleColor" name="ContrastLight"/>
                                 </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" name="ContrastLight"/>
+                                </state>
                                 <connections>
                                     <segue destination="KMX-hI-qED" kind="show" id="3xg-C5-upx"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mentalist Magic" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zlF-gM-erc">
-                                <rect key="frame" x="147" y="135" width="120" height="22"/>
+                                <rect key="frame" x="146.5" y="135" width="121" height="20"/>
                                 <fontDescription key="fontDescription" name="Off-curve-Regular" family="Off-curve" pointSize="17"/>
                                 <color key="textColor" name="ContrastLight"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Cp-cb-AGv">
-                                <rect key="frame" x="20" y="403" width="374" height="34"/>
-                                <color key="backgroundColor" name="ColorPrimay"/>
-                                <fontDescription key="fontDescription" name="Off-curve-Regular" family="Off-curve" pointSize="17"/>
+                                <rect key="frame" x="20" y="373" width="374" height="30"/>
+                                <color key="backgroundColor" name="ColorPrimary"/>
                                 <state key="normal" title="Start">
+                                    <color key="titleColor" name="ContrastLight"/>
+                                </state>
+                                <state key="highlighted">
                                     <color key="titleColor" name="ContrastLight"/>
                                 </state>
                                 <connections>
@@ -80,12 +85,12 @@
             <objects>
                 <viewController id="U4e-aX-qaE" customClass="SelectCategoryViewController" customModule="MentalismMagic" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Trc-kv-SM2">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1lv-xP-8Hc">
-                                <rect key="frame" x="20" y="53" width="374" height="34"/>
-                                <color key="backgroundColor" name="ColorPrimay"/>
+                                <rect key="frame" x="20" y="53" width="374" height="32"/>
+                                <color key="backgroundColor" name="ColorPrimary"/>
                                 <fontDescription key="fontDescription" name="Off-curve-Regular" family="Off-curve" pointSize="17"/>
                                 <state key="normal" title="Cities">
                                     <color key="titleColor" name="ContrastLight"/>
@@ -95,8 +100,8 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bPM-wK-5p6">
-                                <rect key="frame" x="20" y="137" width="374" height="34"/>
-                                <color key="backgroundColor" name="ColorPrimay"/>
+                                <rect key="frame" x="20" y="133" width="374" height="32"/>
+                                <color key="backgroundColor" name="ColorPrimary"/>
                                 <fontDescription key="fontDescription" name="Off-curve-Regular" family="Off-curve" pointSize="17"/>
                                 <state key="normal" title="Colours">
                                     <color key="titleColor" name="ContrastLight"/>
@@ -106,8 +111,8 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oye-ys-Pys">
-                                <rect key="frame" x="20" y="95" width="374" height="34"/>
-                                <color key="backgroundColor" name="ColorPrimay"/>
+                                <rect key="frame" x="20" y="93" width="374" height="32"/>
+                                <color key="backgroundColor" name="ColorPrimary"/>
                                 <fontDescription key="fontDescription" name="Off-curve-Regular" family="Off-curve" pointSize="17"/>
                                 <state key="normal" title="Fruits">
                                     <color key="titleColor" name="ContrastLight"/>
@@ -117,8 +122,8 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LMu-ns-xVv">
-                                <rect key="frame" x="20" y="179" width="374" height="34"/>
-                                <color key="backgroundColor" name="ColorPrimay"/>
+                                <rect key="frame" x="20" y="173" width="374" height="32"/>
+                                <color key="backgroundColor" name="ColorPrimary"/>
                                 <fontDescription key="fontDescription" name="Off-curve-Regular" family="Off-curve" pointSize="17"/>
                                 <state key="normal" title="Videogames">
                                     <color key="titleColor" name="ContrastLight"/>
@@ -128,8 +133,8 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JMX-1z-qcT">
-                                <rect key="frame" x="20" y="221" width="374" height="34"/>
-                                <color key="backgroundColor" name="ColorPrimay"/>
+                                <rect key="frame" x="20" y="213" width="374" height="32"/>
+                                <color key="backgroundColor" name="ColorPrimary"/>
                                 <fontDescription key="fontDescription" name="Off-curve-Regular" family="Off-curve" pointSize="17"/>
                                 <state key="normal" title="Celebrities">
                                     <color key="titleColor" name="ContrastLight"/>
@@ -173,7 +178,7 @@
             <objects>
                 <viewController id="KMX-hI-qED" customClass="MenuViewController" customModule="MentalismMagic" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="n2s-9D-KXO">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Magician Menu'" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TbZ-iV-lzW">
@@ -214,7 +219,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UVU-24-0Fo">
                                 <rect key="frame" x="186" y="518" width="45" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" name="ColorPrimay"/>
+                                <color key="backgroundColor" name="ColorPrimary"/>
                                 <fontDescription key="fontDescription" name="Off-curve-Regular" family="Off-curve" pointSize="17"/>
                                 <state key="normal" title="Guide">
                                     <color key="titleColor" name="ContrastLight"/>
@@ -242,13 +247,13 @@
             <objects>
                 <viewController id="DqH-EB-LEv" customClass="GuideViewController" customModule="MentalismMagic" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rRz-rq-rgw">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gAs-0q-2Eq">
                                 <rect key="frame" x="283" y="573" width="36" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" name="ColorPrimay"/>
+                                <color key="backgroundColor" name="ColorPrimary"/>
                                 <fontDescription key="fontDescription" name="Off-curve-Regular" family="Off-curve" pointSize="17"/>
                                 <state key="normal" title="Next">
                                     <color key="titleColor" name="ContrastLight"/>
@@ -260,7 +265,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="egu-An-Uiu">
                                 <rect key="frame" x="77" y="573" width="65" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" name="ColorPrimay"/>
+                                <color key="backgroundColor" name="ColorPrimary"/>
                                 <fontDescription key="fontDescription" name="Off-curve-Regular" family="Off-curve" pointSize="17"/>
                                 <state key="normal" title="Previous">
                                     <color key="titleColor" name="ContrastLight"/>
@@ -272,7 +277,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uTr-ym-3bd">
                                 <rect key="frame" x="178" y="685" width="61" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" name="ColorPrimay"/>
+                                <color key="backgroundColor" name="ColorPrimary"/>
                                 <fontDescription key="fontDescription" name="Off-curve-Regular" family="Off-curve" pointSize="17"/>
                                 <state key="normal" title="Practice">
                                     <color key="titleColor" name="ContrastLight"/>
@@ -312,9 +317,20 @@
         <scene sceneID="UJp-94-B0G">
             <objects>
                 <navigationController id="GV1-Fe-IYe" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="gwX-7z-Qdw">
+                    <navigationBar key="navigationBar" opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="gwX-7z-Qdw">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" name="ColorPrimayDark"/>
+                        <color key="tintColor" name="ContrastLight"/>
+                        <color key="barTintColor" name="ColorPrimayDark"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" name="ContrastLight"/>
+                            <color key="textShadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <color key="textColor" name="ContrastLight"/>
+                            <color key="textShadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
                     </navigationBar>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="2vm-IY-gK5"/>
@@ -329,13 +345,15 @@
             <objects>
                 <tableViewController id="7zN-mK-lzc" customClass="WordsTableViewController" customModule="MentalismMagic" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="OlX-Bf-kVw">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <color key="sectionIndexColor" name="ContrastLight"/>
-                        <color key="sectionIndexBackgroundColor" name="ColorPrimayDark"/>
+                        <color key="backgroundColor" name="ColorPrimayDark"/>
+                        <color key="separatorColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="sectionIndexColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="sectionIndexTrackingBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="wordCell" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="wordCell" rowHeight="50" id="pvU-x5-EvU" customClass="WordTableViewCell" customModule="MentalismMagic" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="wordCell" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="wordCell" rowHeight="50" id="pvU-x5-EvU" customClass="WordTableViewCell" customModule="MentalismMagic" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="414" height="50"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="pvU-x5-EvU" id="dgG-FF-dBJ">
@@ -344,6 +362,7 @@
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Word" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nW3-W9-KTW">
                                             <rect key="frame" x="20" y="11" width="371" height="21"/>
+                                            <color key="backgroundColor" name="ColorPrimary"/>
                                             <fontDescription key="fontDescription" name="Off-curve-Regular" family="Off-curve" pointSize="17"/>
                                             <color key="textColor" name="ContrastLight"/>
                                             <nil key="highlightedColor"/>
@@ -356,7 +375,7 @@
                                         <constraint firstAttribute="bottomMargin" secondItem="nW3-W9-KTW" secondAttribute="bottom" constant="7" id="k0G-MK-mZO"/>
                                     </constraints>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" name="ColorPrimay"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <connections>
                                     <outlet property="wordLabel" destination="nW3-W9-KTW" id="21C-ha-Ffk"/>
                                 </connections>
@@ -381,7 +400,7 @@
             <objects>
                 <viewController id="9JY-0v-hx3" customClass="TrickViewController" customModule="MentalismMagic" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SWe-xG-Bu7">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="FGs-8U-KQE">
@@ -500,7 +519,7 @@
         </scene>
     </scenes>
     <resources>
-        <namedColor name="ColorPrimay">
+        <namedColor name="ColorPrimary">
             <color red="0.19607843137254902" green="0.40784313725490196" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="ColorPrimayDark">
@@ -509,9 +528,12 @@
         <namedColor name="ContrastLight">
             <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
+        <namedColor name="ContrastLight">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="JzN-l5-RAq"/>
-        <segue reference="hB5-mC-5sY"/>
+        <segue reference="2vm-IY-gK5"/>
     </inferredMetricsTieBreakers>
 </document>

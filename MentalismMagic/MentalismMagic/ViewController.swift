@@ -21,10 +21,13 @@ class ViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         if UserDefaults.standard.bool(forKey: Options.MENU_BUTTON) {
             menuButton.backgroundColor = UIColor.clear
-            menuButton.tintColor = UIColor.clear
+            menuButton.setTitleColor(UIColor.clear, for: .normal)
+            menuButton.setTitleColor(UIColor.clear, for: .highlighted)
+
         } else {
             menuButton.backgroundColor = UIColor(named: Options.COLOR_PRIMARY)
-            menuButton.tintColor = UIColor(named: Options.COLOR_CONTRAST_LIGHT)
+            menuButton.setTitleColor(UIColor(named: Options.COLOR_CONTRAST_LIGHT), for: .normal)
+            menuButton.setTitleColor(UIColor(named: Options.COLOR_CONTRAST_LIGHT), for: .highlighted)
         }
     }
 }
