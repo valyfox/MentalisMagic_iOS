@@ -11,14 +11,11 @@ import Foundation
 //Prende una lista di parole e la suddivide in due liste con le parole curve e dritte
 class WordParser {
     
-    static let shared = WordParser()
-    let alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-    let lettereDritte = "AEFHIKLMNTVWXYZ"
-    let lettereCurve = "BCDGJOPQRSU"
+    static let alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    static let lettereDritte = "AEFHIKLMNTVWXYZ"
+    static let lettereCurve = "BCDGJOPQRSU"
     
-    init(){}
-
-    func makeList(fileName: String) -> [String]? {
+    static func makeList(fileName: String) -> [String]? {
         if let path = Bundle.main.path(forResource: fileName, ofType: "txt") {
             do {
                 let data = try String(contentsOfFile: path, encoding: .utf8)
@@ -31,7 +28,7 @@ class WordParser {
         return nil
     }
     
-    func parse(fileName: String) -> ([String], [String])? {
+    static func parse(fileName: String) -> ([String], [String])? {
         if let completeList = makeList(fileName: fileName) {
             let dritte = completeList.filter { lettereDritte.contains($0.prefix(1).capitalized)}
             let curve = completeList.filter {lettereCurve.contains($0.prefix(1).capitalized)}
@@ -40,7 +37,7 @@ class WordParser {
         return nil
     }
     
-    func selectWord(fileName: String, word: String) -> [String]? {
+    static func selectWord(fileName: String, word: String) -> [String]? {
         if let (dritte, curve) = parse(fileName: fileName) {
             if dritte.contains(word) {
                 return curve
