@@ -18,10 +18,14 @@ class ViewController: UIViewController {
         
         self.navigationController?.viewControllers = [self]
         
-//        if let tokyo = WordParser.shared.selectWord(fileName: "Cities", word: "Tokyo"){
-//            print(tokyo)
-//            print(tokyo.count)
-//        }
+for family: String in UIFont.familyNames
+       {
+           print(family)
+           for names: String in UIFont.fontNames(forFamilyName: family)
+           {
+               print("== \(names)")
+           }
+        }
     }
     
     override func viewWillAppear(_ animated: Bool) {
