@@ -28,6 +28,7 @@
 		40A6B8632406D8BA00D2D1DC /* MentalismMagic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 40A6B8582406D8BA00D2D1DC /* MentalismMagic.xcdatamodeld */; };
 		40A6B8692406DBEB00D2D1DC /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 40A6B8682406DBEB00D2D1DC /* Localizable.strings */; };
 		40A6B86B2406E0C200D2D1DC /* offcurve.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 40A6B86A2406E0C200D2D1DC /* offcurve.ttf */; };
+		40A6B8702406EC6700D2D1DC /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40A6B86F2406EC6700D2D1DC /* Colors.xcassets */; };
 		40ABCFC82365AF8C00C47E1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ABCFC72365AF8C00C47E1A /* AppDelegate.swift */; };
 		40ABCFCA2365AF8C00C47E1A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ABCFC92365AF8C00C47E1A /* SceneDelegate.swift */; };
 		40ABCFCC2365AF8C00C47E1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ABCFCB2365AF8C00C47E1A /* ViewController.swift */; };
@@ -59,6 +60,7 @@
 		40A6B8592406D8BA00D2D1DC /* MentalismMagic.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MentalismMagic.xcdatamodel; sourceTree = "<group>"; };
 		40A6B8682406DBEB00D2D1DC /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		40A6B86A2406E0C200D2D1DC /* offcurve.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = offcurve.ttf; sourceTree = "<group>"; };
+		40A6B86F2406EC6700D2D1DC /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		40ABCFC42365AF8C00C47E1A /* MentalismMagic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MentalismMagic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40ABCFC72365AF8C00C47E1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40ABCFC92365AF8C00C47E1A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 				4049B1192405946700852DF0 /* MenuViewController.swift */,
 				40A6B84D2406D55400D2D1DC /* SelectCategoryViewController.swift */,
 				40A6B8682406DBEB00D2D1DC /* Localizable.strings */,
+				40A6B86F2406EC6700D2D1DC /* Colors.xcassets */,
 			);
 			path = MentalismMagic;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 				40A6B85B2406D8BA00D2D1DC /* fruitsIT.txt in Resources */,
 				40A6B85D2406D8BA00D2D1DC /* coloursEN.txt in Resources */,
 				40A6B86B2406E0C200D2D1DC /* offcurve.ttf in Resources */,
+				40A6B8702406EC6700D2D1DC /* Colors.xcassets in Resources */,
 				40A6B8622406D8BA00D2D1DC /* fruitsEN.txt in Resources */,
 				40A6B8602406D8BA00D2D1DC /* coloursIT.txt in Resources */,
 			);
