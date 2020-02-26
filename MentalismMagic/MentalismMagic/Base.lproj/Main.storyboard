@@ -39,6 +39,13 @@
                                     <segue destination="KMX-hI-qED" kind="show" id="3xg-C5-upx"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mentalist Magic" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zlF-gM-erc">
+                                <rect key="frame" x="147" y="135" width="120" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Off-curve-Regular" family="Off-curve" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -426,7 +433,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="e7p-dr-r7L"/>
+        <segue reference="3xg-C5-upx"/>
         <segue reference="72k-xe-YUc"/>
         <segue reference="hB5-mC-5sY"/>
     </inferredMetricsTieBreakers>
