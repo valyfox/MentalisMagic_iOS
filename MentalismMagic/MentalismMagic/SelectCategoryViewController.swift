@@ -11,7 +11,11 @@ import UIKit
 class SelectCategoryViewController: UIViewController {
     
     let segueIdentifier = "selectWordSegue"
-    let fileNames: [String] = ["citiesEN", "fruitsEN", "coloursEN", "videogames", "celebritiesEN"]
+    let fileNames: [String] = [NSLocalizedString("cities", comment: "words filenames"),
+                               NSLocalizedString("fruits", comment: "words filenames"),
+                               NSLocalizedString("colours", comment: "words filenames"),
+                               NSLocalizedString("videogames", comment: "words filenames"),
+                               NSLocalizedString("celebrities", comment: "words filenames")]
 
     override func viewDidLoad() {
         super.viewDidLoad()

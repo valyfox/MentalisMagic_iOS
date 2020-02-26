@@ -204,7 +204,7 @@
                                     <action selector="startPractice:" destination="tNC-kd-MtA" eventType="touchUpInside" id="qv7-LR-nJW"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="xDc-1X-A6u">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="xDc-1X-A6u">
                                 <rect key="frame" x="20" y="107" width="374" height="414"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -408,7 +408,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="JzN-l5-RAq"/>
+        <segue reference="72k-xe-YUc"/>
         <segue reference="hB5-mC-5sY"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -10,55 +10,17 @@ import UIKit
 
 class GuideViewController: UIViewController {
     
-    let guide:[String] = [
-        "1/11\n\n" +
-        "Trick Explained\n\n" +
-        "Give the phone to the viewer and let him chose a word. " +
-        "If he wants he can shuffle as much as he wants",
-        
-        "2/11\n\n" +
-        "Trick Explained\n\n" +
-        "Ask the viewer to read al the words out loud in the order he prefers. " +
-        "You will be able to guess the word he chose",
-        
-        "3/11\n\n" +
-        "The secret\n\n" +
-        "Each word is divided into two categories: " +
-        "straight words and curved words",
-        
-        "4/11\n\n" +
-        "The secret\n\n" +
-        "Straight words are words whose first letter can be drawn using only straight lines",
-        
-        "5/11\n\n" +
-        "The secret\n\n" +
-        "Curved words are words whose first letter contains at least one curved line",
-        
-        "6/11\n\n" +
-        "The secret\n\n" +
-        "Note that each letter ha to be considered as UPPERCASE in a standard font",
-        
-        "7/11\n\n" +
-        "The secret\n\n" +
-        "If the viewer chooses a straight word the app will show 9 curved words and a straight one " +
-        "(the one chosen by the viewer) and the other way around",
-        
-        "8/11\n\n" +
-        "Example\n\n" +
-        "Words in the straight line category are Tokyo, Manila, Instambul...",
-        
-        "9/11\n\n" +
-        "Example\n\n" +
-        "Words in the curved line category are Beijing, Rome, Calcutta...",
-        
-        "10/11\n\n" +
-        "Straight letters\n\n" +
-        "A, E, F, H, I, L, K, L, M, N, T, V, W, X, Y, Z",
-        
-        "11/11\n\n" +
-        "Curved letters\n\n" +
-        "B, C, D, G, J, O, P, Q, R, S, U"
-    ]
+    let guide:[String] = [NSLocalizedString("guide_trick_1", comment: "guide"),
+                          NSLocalizedString("guide_trick_2", comment: "guide"),
+                          NSLocalizedString("guide_1", comment: "guide"),
+                          NSLocalizedString("guide_2", comment: "guide"),
+                          NSLocalizedString("guide_3", comment: "guide"),
+                          NSLocalizedString("guide_4", comment: "guide"),
+                          NSLocalizedString("guide_5", comment: "guide"),
+                          NSLocalizedString("guide_example_1", comment: "guide"),
+                          NSLocalizedString("guide_example_2", comment: "guide"),
+                          NSLocalizedString("guide_group_straight", comment: "guide"),
+                          NSLocalizedString("guide_group_curved", comment: "guide")]
 
     let practiceSegueIdentifier = "precticeSegue"
     

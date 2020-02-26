@@ -26,6 +26,8 @@
 		40A6B8612406D8BA00D2D1DC /* citiesIT.txt in Resources */ = {isa = PBXBuildFile; fileRef = 40A6B8562406D8BA00D2D1DC /* citiesIT.txt */; };
 		40A6B8622406D8BA00D2D1DC /* fruitsEN.txt in Resources */ = {isa = PBXBuildFile; fileRef = 40A6B8572406D8BA00D2D1DC /* fruitsEN.txt */; };
 		40A6B8632406D8BA00D2D1DC /* MentalismMagic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 40A6B8582406D8BA00D2D1DC /* MentalismMagic.xcdatamodeld */; };
+		40A6B8692406DBEB00D2D1DC /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 40A6B8682406DBEB00D2D1DC /* Localizable.strings */; };
+		40A6B86B2406E0C200D2D1DC /* offcurve.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 40A6B86A2406E0C200D2D1DC /* offcurve.ttf */; };
 		40ABCFC82365AF8C00C47E1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ABCFC72365AF8C00C47E1A /* AppDelegate.swift */; };
 		40ABCFCA2365AF8C00C47E1A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ABCFC92365AF8C00C47E1A /* SceneDelegate.swift */; };
 		40ABCFCC2365AF8C00C47E1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ABCFCB2365AF8C00C47E1A /* ViewController.swift */; };
@@ -55,6 +57,8 @@
 		40A6B8562406D8BA00D2D1DC /* citiesIT.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = citiesIT.txt; sourceTree = "<group>"; };
 		40A6B8572406D8BA00D2D1DC /* fruitsEN.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fruitsEN.txt; sourceTree = "<group>"; };
 		40A6B8592406D8BA00D2D1DC /* MentalismMagic.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MentalismMagic.xcdatamodel; sourceTree = "<group>"; };
+		40A6B8682406DBEB00D2D1DC /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		40A6B86A2406E0C200D2D1DC /* offcurve.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = offcurve.ttf; sourceTree = "<group>"; };
 		40ABCFC42365AF8C00C47E1A /* MentalismMagic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MentalismMagic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40ABCFC72365AF8C00C47E1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40ABCFC92365AF8C00C47E1A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -96,6 +100,7 @@
 		40ABCFC62365AF8C00C47E1A /* MentalismMagic */ = {
 			isa = PBXGroup;
 			children = (
+				40A6B86A2406E0C200D2D1DC /* offcurve.ttf */,
 				40A6B84F2406D8BA00D2D1DC /* celebritiesEN.txt */,
 				40A6B8542406D8BA00D2D1DC /* celebritiesIT.txt */,
 				40A6B8532406D8BA00D2D1DC /* citiesEN.txt */,
@@ -123,6 +128,7 @@
 				4049B117240593F700852DF0 /* optionsStrings.swift */,
 				4049B1192405946700852DF0 /* MenuViewController.swift */,
 				40A6B84D2406D55400D2D1DC /* SelectCategoryViewController.swift */,
+				40A6B8682406DBEB00D2D1DC /* Localizable.strings */,
 			);
 			path = MentalismMagic;
 			sourceTree = "<group>";
@@ -188,6 +194,7 @@
 				40A6B85C2406D8BA00D2D1DC /* videogames.txt in Resources */,
 				40ABCFD72365AF8C00C47E1A /* LaunchScreen.storyboard in Resources */,
 				40A6B85A2406D8BA00D2D1DC /* celebritiesEN.txt in Resources */,
+				40A6B8692406DBEB00D2D1DC /* Localizable.strings in Resources */,
 				40A6B85E2406D8BA00D2D1DC /* citiesEN.txt in Resources */,
 				40ABCFD42365AF8C00C47E1A /* Assets.xcassets in Resources */,
 				4049B11C240597FD00852DF0 /* alphabet.txt in Resources */,
@@ -196,6 +203,7 @@
 				40A6B85F2406D8BA00D2D1DC /* celebritiesIT.txt in Resources */,
 				40A6B85B2406D8BA00D2D1DC /* fruitsIT.txt in Resources */,
 				40A6B85D2406D8BA00D2D1DC /* coloursEN.txt in Resources */,
+				40A6B86B2406E0C200D2D1DC /* offcurve.ttf in Resources */,
 				40A6B8622406D8BA00D2D1DC /* fruitsEN.txt in Resources */,
 				40A6B8602406D8BA00D2D1DC /* coloursIT.txt in Resources */,
 			);
@@ -250,6 +258,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -310,6 +319,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

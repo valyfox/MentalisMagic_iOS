@@ -1,0 +1,28 @@
+/* 
+  Localizable.strings
+  MentalismMagic
+
+  Created by Valerio Volpe on 26/02/2020.
+  Copyright © 2020 Valerio Volpe. All rights reserved.
+*/
+
+/* words filenames */
+"cities" = "citiesEN";
+"colours" = "coloursEN";
+"fruits" = "fruitsEN";
+"celebrities" = "celebritiesEN";
+"videogames" = "videogames";
+
+/* guide */
+"guide_trick_1" = "1/11 \n\n Trick explained \n\n Give the phone to the viewer and let him chose a word. If he wants he can shuffle as much as he wants";
+"guide_trick_2" = "2/11 \n\n Trick explained \n\n Ask the viewer to read all the words out loud in the order he prefers. You will be able to guess the word he chose";
+"guide_1" = "3/11 \n\n The secret \n\n Each word is divided into two categories: straight words and curved words";
+"guide_2" = "4/11 \n\n The secret \n\n Straight words are words whose first letter can be drawn using only straight lines";
+"guide_3" = "5/11 \n\n The secret \n\n Curved words are words whose first letter contains at least one curved line";
+"guide_4" = "6/11 \n\n The secret \n\n Note that each letter has to be considered as UPPERCASE in a standard font";
+"guide_5" = "7/11 \n\n The secret \n\n If the viewer chooses a straight word the app will show 9 curved words and a straight one (the one chosen by the viewer) and the other way around";
+"guide_example_1" = "8/11 \n\n Example \n\n Words in the straight line category are Tokyo, Manila, Instambul...";
+"guide_example_2" = "9/11 \n\n Example \n\n Words in the curved line category are Beijing, Rome, Calcutta...";
+"guide_group_straight" = "10/11 \n\n Straight letters \n\n A, E, F, H, I, K, L, M, N, T, V, W, X, Y, Z";
+"guide_group_curved" = "11/11 \n\n Curved letters \n\n B, C, D, G, J, O, P, Q, R, S, U";
+
