@@ -1,0 +1,28 @@
+/* 
+  Localizable.strings
+  MentalismMagic
+
+  Created by Valerio Volpe on 26/02/2020.
+  Copyright © 2020 Valerio Volpe. All rights reserved.
+*/
+
+/* words filenames */
+"cities" = "citiesIT";
+"colours" = "coloursIT";
+"fruits" = "fruitsIT";
+"celebrities" = "celebritiesIT";
+"videogames" = "videogames";
+
+/* guide */
+"guide_trick_1" = "1/11 \n\n Spiegazione del gioco \n\n Dai il telefono allo spettatore e fagli scegliere una parola. Se vuole può mischiare tutte le volte che vuole";
+"guide_trick_2" = "2/11 \n\n Spiegazione del gioco \n\n Chiedi allo spettatore di dire ad alta voce le parole nell\'ordine che preferisce. Sarai in grado di indovinare la parola scelta";
+"guide_1" = "3/11 \n\n Il segreto \n\n Le parole sono divise in due categorie: parole dritte e parole curve";
+"guide_2" = "4/11 \n\n Il segreto \n\n Le parole dritte sono parole la cui iniziale può essere scritta usando solo linee dritte";
+"guide_3" = "5/11 \n\n Il segreto \n\n Le parole curve sono parole la cui iniziale contiene almeno un tratto curvo";
+"guide_4" = "6/11 \n\n Il segreto \n\n Tieni a mente che l\'iniziale va considerata in MAIUSCOLO in un font normale";
+"guide_5" = "7/11 \n\n Il segreto \n\n Se lo spettatore sceglie una parola dritta l\'app mostrerà 9 parole curve e una sola dritta (quella scelta) e viceversa";
+"guide_example_1" = "8/11 \n\n Esempio \n\n Parole nella categoria dritta sono Tokyo, Manila, Instambul...";
+"guide_example_2" = "9/11 \n\n Esempio \n\n Parole nella categoria curva sono Beijing, Roma, Calcutta...";
+"guide_group_straight" = "10/11 \n\n Lettere dritte \n\n A, E, F, H, I, K, L, M, N, T, V, W, X, Y, Z";
+"guide_group_curved" = "11/11 \n\n Lettere curve \n\n B, C, D, G, J, O, P, Q, R, S, U";
+

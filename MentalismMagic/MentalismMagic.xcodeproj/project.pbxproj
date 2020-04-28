@@ -11,6 +11,7 @@
 		4049B118240593F700852DF0 /* optionsStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4049B117240593F700852DF0 /* optionsStrings.swift */; };
 		4049B11A2405946700852DF0 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4049B1192405946700852DF0 /* MenuViewController.swift */; };
 		4049B11C240597FD00852DF0 /* alphabet.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4049B11B240597FD00852DF0 /* alphabet.txt */; };
+		404D53F5245837C1007C1D16 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 404D53F7245837C1007C1D16 /* Localizable.strings */; };
 		409801F224044A4D0037F7A6 /* GuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409801F124044A4D0037F7A6 /* GuideViewController.swift */; };
 		409801F42404516C0037F7A6 /* WordParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409801F32404516C0037F7A6 /* WordParser.swift */; };
 		409801F6240454930037F7A6 /* WordsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409801F5240454930037F7A6 /* WordsTableViewController.swift */; };
@@ -26,7 +27,6 @@
 		40A6B8612406D8BA00D2D1DC /* citiesIT.txt in Resources */ = {isa = PBXBuildFile; fileRef = 40A6B8562406D8BA00D2D1DC /* citiesIT.txt */; };
 		40A6B8622406D8BA00D2D1DC /* fruitsEN.txt in Resources */ = {isa = PBXBuildFile; fileRef = 40A6B8572406D8BA00D2D1DC /* fruitsEN.txt */; };
 		40A6B8632406D8BA00D2D1DC /* MentalismMagic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 40A6B8582406D8BA00D2D1DC /* MentalismMagic.xcdatamodeld */; };
-		40A6B8692406DBEB00D2D1DC /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 40A6B8682406DBEB00D2D1DC /* Localizable.strings */; };
 		40A6B86B2406E0C200D2D1DC /* offcurve.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 40A6B86A2406E0C200D2D1DC /* offcurve.ttf */; };
 		40A6B8702406EC6700D2D1DC /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40A6B86F2406EC6700D2D1DC /* Colors.xcassets */; };
 		40ABCFC82365AF8C00C47E1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ABCFC72365AF8C00C47E1A /* AppDelegate.swift */; };
@@ -43,6 +43,12 @@
 		4049B117240593F700852DF0 /* optionsStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = optionsStrings.swift; sourceTree = "<group>"; };
 		4049B1192405946700852DF0 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		4049B11B240597FD00852DF0 /* alphabet.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = alphabet.txt; sourceTree = "<group>"; };
+		404D53F1245836E4007C1D16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		404D53F2245836E4007C1D16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		404D53F324583731007C1D16 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Main.strings; sourceTree = "<group>"; };
+		404D53F424583731007C1D16 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		404D53F6245837C1007C1D16 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		404D53F8245837CF007C1D16 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		409801F124044A4D0037F7A6 /* GuideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideViewController.swift; sourceTree = "<group>"; };
 		409801F32404516C0037F7A6 /* WordParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordParser.swift; sourceTree = "<group>"; };
 		409801F5240454930037F7A6 /* WordsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsTableViewController.swift; sourceTree = "<group>"; };
@@ -58,17 +64,14 @@
 		40A6B8562406D8BA00D2D1DC /* citiesIT.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = citiesIT.txt; sourceTree = "<group>"; };
 		40A6B8572406D8BA00D2D1DC /* fruitsEN.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fruitsEN.txt; sourceTree = "<group>"; };
 		40A6B8592406D8BA00D2D1DC /* MentalismMagic.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MentalismMagic.xcdatamodel; sourceTree = "<group>"; };
-		40A6B8682406DBEB00D2D1DC /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		40A6B86A2406E0C200D2D1DC /* offcurve.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = offcurve.ttf; sourceTree = "<group>"; };
 		40A6B86F2406EC6700D2D1DC /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		40ABCFC42365AF8C00C47E1A /* MentalismMagic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MentalismMagic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40ABCFC72365AF8C00C47E1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40ABCFC92365AF8C00C47E1A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		40ABCFCB2365AF8C00C47E1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		40ABCFCE2365AF8C00C47E1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		40ABCFD12365AF8C00C47E1A /* MentalismMagic.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MentalismMagic.xcdatamodel; sourceTree = "<group>"; };
 		40ABCFD32365AF8C00C47E1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		40ABCFD62365AF8C00C47E1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40ABCFD82365AF8C00C47E1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -130,7 +133,7 @@
 				4049B117240593F700852DF0 /* optionsStrings.swift */,
 				4049B1192405946700852DF0 /* MenuViewController.swift */,
 				40A6B84D2406D55400D2D1DC /* SelectCategoryViewController.swift */,
-				40A6B8682406DBEB00D2D1DC /* Localizable.strings */,
+				404D53F7245837C1007C1D16 /* Localizable.strings */,
 				40A6B86F2406EC6700D2D1DC /* Colors.xcassets */,
 			);
 			path = MentalismMagic;
@@ -178,6 +181,7 @@
 			knownRegions = (
 				en,
 				Base,
+				it,
 			);
 			mainGroup = 40ABCFBB2365AF8C00C47E1A;
 			productRefGroup = 40ABCFC52365AF8C00C47E1A /* Products */;
@@ -197,7 +201,7 @@
 				40A6B85C2406D8BA00D2D1DC /* videogames.txt in Resources */,
 				40ABCFD72365AF8C00C47E1A /* LaunchScreen.storyboard in Resources */,
 				40A6B85A2406D8BA00D2D1DC /* celebritiesEN.txt in Resources */,
-				40A6B8692406DBEB00D2D1DC /* Localizable.strings in Resources */,
+				404D53F5245837C1007C1D16 /* Localizable.strings in Resources */,
 				40A6B85E2406D8BA00D2D1DC /* citiesEN.txt in Resources */,
 				40ABCFD42365AF8C00C47E1A /* Assets.xcassets in Resources */,
 				4049B11C240597FD00852DF0 /* alphabet.txt in Resources */,
@@ -239,10 +243,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		404D53F7245837C1007C1D16 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				404D53F6245837C1007C1D16 /* it */,
+				404D53F8245837CF007C1D16 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		40ABCFCD2365AF8C00C47E1A /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				40ABCFCE2365AF8C00C47E1A /* Base */,
+				404D53F1245836E4007C1D16 /* Base */,
+				404D53F324583731007C1D16 /* it */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -250,7 +264,8 @@
 		40ABCFD52365AF8C00C47E1A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				40ABCFD62365AF8C00C47E1A /* Base */,
+				404D53F2245836E4007C1D16 /* Base */,
+				404D53F424583731007C1D16 /* it */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -379,13 +394,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 857U4QUPC3;
 				INFOPLIST_FILE = MentalismMagic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = tk.valyfox.MentalismMagic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -398,13 +414,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 857U4QUPC3;
 				INFOPLIST_FILE = MentalismMagic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = tk.valyfox.MentalismMagic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

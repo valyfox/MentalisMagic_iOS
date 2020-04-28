@@ -1,0 +1,90 @@
+
+/* Class = "UILabel"; text = "Made by Valerio Volpe and Andrea Vignali"; ObjectID = "0My-UA-9a0"; */
+"0My-UA-9a0.text" = "Realizzata da Valerio Volpe e Andrea Vignali";
+
+/* Class = "UIButton"; normalTitle = "Cities"; ObjectID = "1lv-xP-8Hc"; */
+"1lv-xP-8Hc.normalTitle" = "Citta'";
+
+/* Class = "UIButton"; normalTitle = "Start"; ObjectID = "2Cp-cb-AGv"; */
+"2Cp-cb-AGv.normalTitle" = "Inizia";
+
+/* Class = "UILabel"; text = "Label5"; ObjectID = "4IC-5V-4S9"; */
+"4IC-5V-4S9.text" = "Label5";
+
+/* Class = "UILabel"; text = "Label0"; ObjectID = "8aj-2G-0oU"; */
+"8aj-2G-0oU.text" = "Label0";
+
+/* Class = "UILabel"; text = "Label8"; ObjectID = "8dw-zX-lGU"; */
+"8dw-zX-lGU.text" = "Label8";
+
+/* Class = "UILabel"; text = "Label1"; ObjectID = "ARz-Pq-dRr"; */
+"ARz-Pq-dRr.text" = "Label1";
+
+/* Class = "UILabel"; text = "Label7"; ObjectID = "BVZ-15-HD2"; */
+"BVZ-15-HD2.text" = "Label7";
+
+/* Class = "UIButton"; normalTitle = "Celebrities"; ObjectID = "JMX-1z-qcT"; */
+"JMX-1z-qcT.normalTitle" = "Celebrita'";
+
+/* Class = "UIButton"; normalTitle = "Videogames"; ObjectID = "LMu-ns-xVv"; */
+"LMu-ns-xVv.normalTitle" = "Videogames";
+
+/* Class = "UILabel"; text = "Label3"; ObjectID = "OZm-ji-22d"; */
+"OZm-ji-22d.text" = "Label3";
+
+/* Class = "UILabel"; text = "Label9"; ObjectID = "Ob8-9Z-nAO"; */
+"Ob8-9Z-nAO.text" = "Label9";
+
+/* Class = "UIButton"; normalTitle = "Menu"; ObjectID = "OyD-is-0vu"; */
+"OyD-is-0vu.normalTitle" = "Menu'";
+
+/* Class = "UIButton"; normalTitle = "End"; ObjectID = "Pz5-rs-yHz"; */
+"Pz5-rs-yHz.normalTitle" = "Fine";
+
+/* Class = "UILabel"; text = "Magician Menu"; ObjectID = "TbZ-iV-lzW"; */
+"TbZ-iV-lzW.text" = "Menu' del mago";
+
+/* Class = "UIButton"; normalTitle = "Guide"; ObjectID = "UVU-24-0Fo"; */
+"UVU-24-0Fo.normalTitle" = "Guida";
+
+/* Class = "UILabel"; text = "Label4"; ObjectID = "Vt9-3z-XdP"; */
+"Vt9-3z-XdP.text" = "Label4";
+
+/* Class = "UILabel"; text = "Hide menu' button"; ObjectID = "YcN-eo-vHf"; */
+"YcN-eo-vHf.text" = "Nascondi il pulsante menu'";
+
+/* Class = "UIButton"; normalTitle = "Colours"; ObjectID = "bPM-wK-5p6"; */
+"bPM-wK-5p6.normalTitle" = "Colori";
+
+/* Class = "UIButton"; normalTitle = "Shuffle"; ObjectID = "eWB-dZ-Maq"; */
+"eWB-dZ-Maq.normalTitle" = "Mischia";
+
+/* Class = "UIButton"; normalTitle = "Previous"; ObjectID = "egu-An-Uiu"; */
+"egu-An-Uiu.normalTitle" = "Indietro";
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "gAs-0q-2Eq"; */
+"gAs-0q-2Eq.normalTitle" = "Avanti";
+
+/* Class = "UILabel"; text = "Word"; ObjectID = "nW3-W9-KTW"; */
+"nW3-W9-KTW.text" = "Parola";
+
+/* Class = "UIButton"; normalTitle = "Fruits"; ObjectID = "oye-ys-Pys"; */
+"oye-ys-Pys.normalTitle" = "Frutta";
+
+/* Class = "UILabel"; text = "Label6"; ObjectID = "sC4-4M-4MH"; */
+"sC4-4M-4MH.text" = "Label6";
+
+/* Class = "UILabel"; text = "Label2"; ObjectID = "sM0-PM-zjk"; */
+"sM0-PM-zjk.text" = "Label2";
+
+/* Class = "UIButton"; normalTitle = "Practice"; ObjectID = "uTr-ym-3bd"; */
+"uTr-ym-3bd.normalTitle" = "Pratica";
+
+/* Class = "UILabel"; text = "Highlight selected word"; ObjectID = "uzs-O6-uV7"; */
+"uzs-O6-uV7.text" = "Evidenzia parola scelta";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "xDc-1X-A6u"; */
+"xDc-1X-A6u.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UILabel"; text = "Mentalist Magic"; ObjectID = "zlF-gM-erc"; */
+"zlF-gM-erc.text" = "Mentalism Magic";
